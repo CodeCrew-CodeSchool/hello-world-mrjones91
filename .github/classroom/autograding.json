@@ -5,7 +5,7 @@
       "setup": "npm install",
       "run": "npm test",
       "input": "Test\r\nDJ\r\nAudrey\r\nRay\r\nWorld",
-      "output": "Hello Test!\r\nHello Professor Jones!\r\nHello President Audrey!\r\nHello Professor Green!\r\nHello World!",
+      "output": "Hello Test!\r\nHello Professor DJ!\r\nHello President Audrey!\r\nHello Professor Ray!\r\nHello World!",
       "comparison": "exact",
       "timeout": 10,
       "points": 10
