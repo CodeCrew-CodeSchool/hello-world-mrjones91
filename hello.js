@@ -2,7 +2,7 @@ function hello(greetee) {
   let name = greetee;
   if (greetee == "DJ" || greetee == "Ray")
   {
-    greetee == "Professor " + name; 
+    greetee = "Professor " + name; 
   } else if (greetee == "Audrey") {
     greetee = "President " + name;
   }
