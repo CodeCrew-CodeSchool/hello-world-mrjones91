@@ -1,12 +1,12 @@
 {
   "tests": [
     {
-      "name": "Hello Test",
+      "name": "Test Command",
       "setup": "npm install",
       "run": "npm test",
-      "input": "Test\r\nDJ\r\nAudrey\r\nRay\r\nWorld",
-      "output": "Hello Test\r\nHello Professor Jones\r\nHello President Audrey\r\nHello Professor Green\r\nHello World",
-      "comparison": "exact",
+      "input": "",
+      "output": "",
+      "comparison": "included",
       "timeout": 10,
       "points": 10
     }

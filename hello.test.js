@@ -1,5 +1,8 @@
 const hello = require('./hello');
 
 test('outputs the correct string', () => {
-  expect(hello()).toBe("Hello world!");
+  expect(hello("world")).toBe("Hello world!");
+  expect(hello("DJ")).toBe("Hello Professor DJ!");
+  expect(hello("Ray")).toBe("Hello Professor Ray!");
+  expect(hello("Audrey")).toBe("Hello President Audrey!");
 });
